@@ -1,0 +1,5 @@
+C:/Users/buste/AR_test/.utmp/RelWithDebInfo/3c533o1w/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/buste/AR_test/.utmp/RelWithDebInfo/3c533o1w/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/buste/AR_test/.utmp/RelWithDebInfo/3c533o1w/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/buste/AR_test/.utmp/RelWithDebInfo/3c533o1w/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/buste/AR_test/.utmp/RelWithDebInfo/3c533o1w/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
