@@ -471,7 +471,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1006,7 +1008,9 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

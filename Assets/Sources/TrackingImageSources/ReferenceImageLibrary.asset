@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5528664537890057083
+  m_GuidHigh: 14676752871140256440
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5092440681290168863
+      m_GuidHigh: 650535202980052612
+    m_SerializedTextureGuid:
+      m_GuidLow: 12048266337347658233
+      m_GuidHigh: 15485514492807293658
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 0
+    m_Name: RUDN_Logo
+    m_Texture: {fileID: 2800000, guid: 3ce761f90a66a734da2af1ab6299e7d6, type: 3}

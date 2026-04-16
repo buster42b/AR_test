@@ -598,7 +598,7 @@ IL2CPP_EXTERN_C  bool DelegatePInvokeWrapper_ValidateBoneWeights_000001BBU24Post
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 79026
+// Method Definition Index: 80629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidateBoneWeights_000001BBU24PostfixBurstDelegate__ctor_mBB5964D70439F44680655F90ECB2B6C3898467B8 (ValidateBoneWeights_000001BBU24PostfixBurstDelegate_t5AB398518925D0BEE1723204B935C44A502461FF* __this, RuntimeObject* ___0_p, intptr_t ___1_p, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_p);
@@ -635,13 +635,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidateBoneWeights_000001BBU24PostfixBu
 	}
 	__this->___extra_arg = (intptr_t)&ValidateBoneWeights_000001BBU24PostfixBurstDelegate_Invoke_mBF3E8D3B6653275F1AB4189C7B605F72F93ACA40_Multicast;
 }
-// Method Definition Index: 79027
+// Method Definition Index: 80630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValidateBoneWeights_000001BBU24PostfixBurstDelegate_Invoke_mBF3E8D3B6653275F1AB4189C7B605F72F93ACA40 (ValidateBoneWeights_000001BBU24PostfixBurstDelegate_t5AB398518925D0BEE1723204B935C44A502461FF* __this, NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B* ___0_boneWeights, int32_t ___1_bindPoseCount, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B*, int32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_boneWeights, ___1_bindPoseCount, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 79028
+// Method Definition Index: 80631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValidateBoneWeights_000001BBU24PostfixBurstDelegate_BeginInvoke_m8A0F4A2CE39DDA0013A7093C78A68EA38DD8556E (ValidateBoneWeights_000001BBU24PostfixBurstDelegate_t5AB398518925D0BEE1723204B935C44A502461FF* __this, NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B* ___0_boneWeights, int32_t ___1_bindPoseCount, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_p, RuntimeObject* ___3_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -655,7 +655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValidateBoneWeights_000001BBU2
 	__d_args[1] = Box(il2cpp_defaults.int32_class, &___1_bindPoseCount);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_p, (RuntimeObject*)___3_p);
 }
-// Method Definition Index: 79029
+// Method Definition Index: 80632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValidateBoneWeights_000001BBU24PostfixBurstDelegate_EndInvoke_mB3C6CDE6814C2AE89E3919D4AEFA5BDD059C11C9 (ValidateBoneWeights_000001BBU24PostfixBurstDelegate_t5AB398518925D0BEE1723204B935C44A502461FF* __this, RuntimeObject* ___0_p, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_p, 0);
@@ -669,7 +669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValidateBoneWeights_000001BBU24PostfixBu
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79030
+// Method Definition Index: 80633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidateBoneWeights_000001BBU24BurstDirectCall_GetFunctionPointerDiscard_m6FBE4C554EEFE4AB826C442528A8F8D207E6E0D2 (intptr_t* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -712,7 +712,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 79031
+// Method Definition Index: 80634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ValidateBoneWeights_000001BBU24BurstDirectCall_GetFunctionPointer_m96F4EB942FCAE3DB2B0CA302DFF11451315CDA03 (const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -724,7 +724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ValidateBoneWeights_000001BBU24Burst
 		return L_0;
 	}
 }
-// Method Definition Index: 79032
+// Method Definition Index: 80635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValidateBoneWeights_000001BBU24BurstDirectCall_Invoke_mAD66DC97B52886B2A2AD6B28AC0049619BC5F850 (NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B* ___0_boneWeights, int32_t ___1_bindPoseCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -808,7 +808,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_SetVertexPositionFromByteBuffer_000
 	il2cppPInvokeFunc(___0_buffer, ___1_indices, ___2_vertices, ___3_stride);
 
 }
-// Method Definition Index: 79033
+// Method Definition Index: 80636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate__ctor_mF7C2DF2A709481733B251B271ECD5E3E2B50FAFB (SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_tC049C59B69006A356670EF4525894553AB68EF5C* __this, RuntimeObject* ___0_p, intptr_t ___1_p, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_p);
@@ -845,13 +845,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BC
 	}
 	__this->___extra_arg = (intptr_t)&SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_Invoke_m18A416743BF6B41882B3448ED347C5264C0FF695_Multicast;
 }
-// Method Definition Index: 79034
+// Method Definition Index: 80637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_Invoke_m18A416743BF6B41882B3448ED347C5264C0FF695 (SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_tC049C59B69006A356670EF4525894553AB68EF5C* __this, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___0_buffer, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_indices, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* ___2_vertices, int32_t ___3_stride, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_buffer, ___1_indices, ___2_vertices, ___3_stride, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 79035
+// Method Definition Index: 80638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_BeginInvoke_m308CDB1B495E8B22E2628550E2785B06D89F2400 (SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_tC049C59B69006A356670EF4525894553AB68EF5C* __this, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___0_buffer, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_indices, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* ___2_vertices, int32_t ___3_stride, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_p, RuntimeObject* ___5_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -869,7 +869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SetVertexPositionFromByteBuffe
 	__d_args[3] = Box(il2cpp_defaults.int32_class, &___3_stride);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_p, (RuntimeObject*)___5_p);
 }
-// Method Definition Index: 79036
+// Method Definition Index: 80639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_EndInvoke_m8420A9F0CAC30F550588B8C0F2F26B5DEA61D483 (SetVertexPositionFromByteBuffer_000001BCU24PostfixBurstDelegate_tC049C59B69006A356670EF4525894553AB68EF5C* __this, RuntimeObject* ___0_p, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_p, 0);
@@ -882,7 +882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79037
+// Method Definition Index: 80640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BCU24BurstDirectCall_GetFunctionPointerDiscard_m150BE83906F66685D84C12D3244529BE6953BE86 (intptr_t* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -925,7 +925,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 79038
+// Method Definition Index: 80641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SetVertexPositionFromByteBuffer_000001BCU24BurstDirectCall_GetFunctionPointer_m3E81EA07DC2B08E77597DF8FC3E6C80F4AC9E1EE (const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -937,7 +937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SetVertexPositionFromByteBuffer_0000
 		return L_0;
 	}
 }
-// Method Definition Index: 79039
+// Method Definition Index: 80642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetVertexPositionFromByteBuffer_000001BCU24BurstDirectCall_Invoke_m49772EB22994A156A2C11F0A842C4A5A84BC5B4D (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___0_buffer, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_indices, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* ___2_vertices, int32_t ___3_stride, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1028,7 +1028,7 @@ IL_0021:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79040
+// Method Definition Index: 80643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__12640072059193112690_CreateJobReflectionData_mA063968188DB2EF135AC7DB46CC2EB45A360EBB8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1087,7 +1087,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 79041
+// Method Definition Index: 80644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__12640072059193112690_EarlyInit_mCF112CAD6822389D903F18CEB4D464A1EDE4C3FC (const RuntimeMethod* method) 
 {
 	{
@@ -1103,7 +1103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__12640
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79042
+// Method Definition Index: 80645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_m3D7699F95291919D3D61A7D414F04C3C9703A382 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1123,7 +1123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 79024
+// Method Definition Index: 80627
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BurstedSpriteSkinUtilities_ValidateBoneWeightsU24BurstManaged_m21CC2B3A2D0773D4D06FC7A380277502C103AC44_inline (NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B* ___0_boneWeights, int32_t ___1_bindPoseCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1274,7 +1274,7 @@ IL_0075:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 79025
+// Method Definition Index: 80628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BurstedSpriteSkinUtilities_SetVertexPositionFromByteBufferU24BurstManaged_m6AE31BDEE33E5E3FD3E2EB37F37A400EBF4FF45C_inline (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___0_buffer, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_indices, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* ___2_vertices, int32_t ___3_stride, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1346,7 +1346,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 64721
+// Method Definition Index: 65673
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1355,7 +1355,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Va
 		return L_0;
 	}
 }
-// Method Definition Index: 42633
+// Method Definition Index: 43297
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex0_m45EB0601DB11679A351C7F253558873C80F10612_inline (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1363,7 +1363,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex0
 		return L_0;
 	}
 }
-// Method Definition Index: 42634
+// Method Definition Index: 43298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex1_mEC07EAC4229FBEB80D0387EE94EE927FC4A8FE18_inline (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1371,7 +1371,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex1
 		return L_0;
 	}
 }
-// Method Definition Index: 42635
+// Method Definition Index: 43299
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex2_m838DE1CFED71082282E00E4F83C24170B1D81310_inline (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1379,7 +1379,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex2
 		return L_0;
 	}
 }
-// Method Definition Index: 42636
+// Method Definition Index: 43300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex3_m9CA9ACCF8AFEE88EAFC99F6B29365447656F086F_inline (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1387,7 +1387,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BoneWeight_get_boneIndex3
 		return L_0;
 	}
 }
-// Method Definition Index: 78735
+// Method Definition Index: 80338
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeCustomSlice_1_get_Length_mFC0D207566FFDB4E7D20E59D623332BB89D5546A_gshared_inline (NativeCustomSlice_1_t00144D7121E64139E2BBFAEB4BA01FB646F1A71B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1396,7 +1396,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeCustomSlice_1_get_L
 		return L_0;
 	}
 }
-// Method Definition Index: 41124
+// Method Definition Index: 41313
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_gshared_inline (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_nativeArray, const RuntimeMethod* method) 
 {
 	{
